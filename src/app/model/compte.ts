@@ -1,4 +1,4 @@
-class Compte{	
+export class Compte{	
 	private numeroCompte: Number; 
 	private idClient: Number;
 	private typeCompte: Number;
@@ -6,7 +6,7 @@ class Compte{
 	private plafondAutorise: Number;
 
 	/**
-	 * on a obligatoirement besoin d'un client pour creer un compte
+	 * on a obligatoirement besoin d'un client pour creer un compte <3
 	 */
 
 	
