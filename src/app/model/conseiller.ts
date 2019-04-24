@@ -1,6 +1,6 @@
 export class Conseiller {
     mle: Number;
-    dateEmbauche: Date;
+    dateEmbauche: String;
     nom: string;
     prenom: string;
     email: string;
@@ -10,7 +10,7 @@ export class Conseiller {
     ville: string;
 
     //constructor 
-    constructor(mle: Number, dateEmbauche: Date, nom: string, prenom: string, email: string, tel: string, adresse: string, cp: Number, ville: string) {
+    constructor(mle: Number, dateEmbauche: String, nom: string, prenom: string, email: string, tel: string, adresse: string, cp: Number, ville: string) {
         this.mle = mle;
         this.dateEmbauche = dateEmbauche;
         this.nom = nom
